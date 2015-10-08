@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC54F201BC6A66800D8B89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F1F1BC6A66800D8B89E /* main.m */; };
+		ABC54F231BC6A66800D8B89E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F221BC6A66800D8B89E /* AppDelegate.m */; };
+		ABC54F261BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */; };
+		ABC54F291BC6A66800D8B89E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F281BC6A66800D8B89E /* ViewController.m */; };
+		ABC54F2C1BC6A66800D8B89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2A1BC6A66800D8B89E /* Main.storyboard */; };
+		ABC54F2E1BC6A66800D8B89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2D1BC6A66800D8B89E /* Images.xcassets */; };
+		ABC54F311BC6A66800D8B89E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2F1BC6A66800D8B89E /* LaunchScreen.xib */; };
+		ABC54F3D1BC6A66800D8B89E /* LOOfficeAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F3C1BC6A66800D8B89E /* LOOfficeAssistantTests.m */; };
+		ABC54F6A1BC6A6B100D8B89E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F4C1BC6A6B100D8B89E /* logo.png */; };
+		ABC54F6B1BC6A6B100D8B89E /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F4E1BC6A6B100D8B89E /* tabbar_contacts@2x.png */; };
+		ABC54F6C1BC6A6B100D8B89E /* tabbar_contacts@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F4F1BC6A6B100D8B89E /* tabbar_contacts@2x~ipad.png */; };
+		ABC54F6D1BC6A6B100D8B89E /* tabbar_contacts@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F501BC6A6B100D8B89E /* tabbar_contacts@3x.png */; };
+		ABC54F6E1BC6A6B100D8B89E /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F511BC6A6B100D8B89E /* tabbar_contactsHL@2x.png */; };
+		ABC54F6F1BC6A6B100D8B89E /* tabbar_contactsHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F521BC6A6B100D8B89E /* tabbar_contactsHL@2x~ipad.png */; };
+		ABC54F701BC6A6B100D8B89E /* tabbar_contactsHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F531BC6A6B100D8B89E /* tabbar_contactsHL@3x.png */; };
+		ABC54F711BC6A6B100D8B89E /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F541BC6A6B100D8B89E /* tabbar_discover@2x.png */; };
+		ABC54F721BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F551BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png */; };
+		ABC54F731BC6A6B100D8B89E /* tabbar_discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F561BC6A6B100D8B89E /* tabbar_discover@3x.png */; };
+		ABC54F741BC6A6B100D8B89E /* tabbar_discoverHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F571BC6A6B100D8B89E /* tabbar_discoverHL@2x.png */; };
+		ABC54F751BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F581BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png */; };
+		ABC54F761BC6A6B100D8B89E /* tabbar_discoverHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F591BC6A6B100D8B89E /* tabbar_discoverHL@3x.png */; };
+		ABC54F771BC6A6B100D8B89E /* tabbar_mainframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5A1BC6A6B100D8B89E /* tabbar_mainframe@2x.png */; };
+		ABC54F781BC6A6B100D8B89E /* tabbar_mainframe@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5B1BC6A6B100D8B89E /* tabbar_mainframe@2x~ipad.png */; };
+		ABC54F791BC6A6B100D8B89E /* tabbar_mainframe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5C1BC6A6B100D8B89E /* tabbar_mainframe@3x.png */; };
+		ABC54F7A1BC6A6B100D8B89E /* tabbar_mainframeHL.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5D1BC6A6B100D8B89E /* tabbar_mainframeHL.png */; };
+		ABC54F7B1BC6A6B100D8B89E /* tabbar_mainframeHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5E1BC6A6B100D8B89E /* tabbar_mainframeHL@2x.png */; };
+		ABC54F7C1BC6A6B100D8B89E /* tabbar_mainframeHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F5F1BC6A6B100D8B89E /* tabbar_mainframeHL@2x~ipad.png */; };
+		ABC54F7D1BC6A6B100D8B89E /* tabbar_mainframeHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F601BC6A6B100D8B89E /* tabbar_mainframeHL@3x.png */; };
+		ABC54F7E1BC6A6B100D8B89E /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F611BC6A6B100D8B89E /* tabbar_me@2x.png */; };
+		ABC54F7F1BC6A6B100D8B89E /* tabbar_me@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F621BC6A6B100D8B89E /* tabbar_me@2x~ipad.png */; };
+		ABC54F801BC6A6B100D8B89E /* tabbar_me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F631BC6A6B100D8B89E /* tabbar_me@3x.png */; };
+		ABC54F811BC6A6B100D8B89E /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F641BC6A6B100D8B89E /* tabbar_meHL@2x.png */; };
+		ABC54F821BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F651BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png */; };
+		ABC54F831BC6A6B100D8B89E /* tabbar_meHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F661BC6A6B100D8B89E /* tabbar_meHL@3x.png */; };
+		ABC54F841BC6A6B100D8B89E /* BaseVendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F691BC6A6B100D8B89E /* BaseVendors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC54F371BC6A66800D8B89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC54F121BC6A66800D8B89E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC54F191BC6A66800D8B89E;
+			remoteInfo = LOOfficeAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC54F1A1BC6A66800D8B89E /* LOOfficeAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOOfficeAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC54F1E1BC6A66800D8B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC54F1F1BC6A66800D8B89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC54F211BC6A66800D8B89E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		ABC54F221BC6A66800D8B89E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOOfficeAssistant.xcdatamodel; sourceTree = "<group>"; };
+		ABC54F271BC6A66800D8B89E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC54F281BC6A66800D8B89E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC54F2B1BC6A66800D8B89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC54F2D1BC6A66800D8B89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		ABC54F301BC6A66800D8B89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABC54F361BC6A66800D8B89E /* LOOfficeAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOOfficeAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC54F3B1BC6A66800D8B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC54F3C1BC6A66800D8B89E /* LOOfficeAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOOfficeAssistantTests.m; sourceTree = "<group>"; };
+		ABC54F491BC6A6B100D8B89E /* PublicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMacros.h; sourceTree = "<group>"; };
+		ABC54F4C1BC6A6B100D8B89E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		ABC54F4E1BC6A6B100D8B89E /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x.png"; sourceTree = "<group>"; };
+		ABC54F4F1BC6A6B100D8B89E /* tabbar_contacts@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F501BC6A6B100D8B89E /* tabbar_contacts@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@3x.png"; sourceTree = "<group>"; };
+		ABC54F511BC6A6B100D8B89E /* tabbar_contactsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x.png"; sourceTree = "<group>"; };
+		ABC54F521BC6A6B100D8B89E /* tabbar_contactsHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F531BC6A6B100D8B89E /* tabbar_contactsHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@3x.png"; sourceTree = "<group>"; };
+		ABC54F541BC6A6B100D8B89E /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		ABC54F551BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F561BC6A6B100D8B89E /* tabbar_discover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@3x.png"; sourceTree = "<group>"; };
+		ABC54F571BC6A6B100D8B89E /* tabbar_discoverHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x.png"; sourceTree = "<group>"; };
+		ABC54F581BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F591BC6A6B100D8B89E /* tabbar_discoverHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@3x.png"; sourceTree = "<group>"; };
+		ABC54F5A1BC6A6B100D8B89E /* tabbar_mainframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x.png"; sourceTree = "<group>"; };
+		ABC54F5B1BC6A6B100D8B89E /* tabbar_mainframe@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F5C1BC6A6B100D8B89E /* tabbar_mainframe@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@3x.png"; sourceTree = "<group>"; };
+		ABC54F5D1BC6A6B100D8B89E /* tabbar_mainframeHL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_mainframeHL.png; sourceTree = "<group>"; };
+		ABC54F5E1BC6A6B100D8B89E /* tabbar_mainframeHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x.png"; sourceTree = "<group>"; };
+		ABC54F5F1BC6A6B100D8B89E /* tabbar_mainframeHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F601BC6A6B100D8B89E /* tabbar_mainframeHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@3x.png"; sourceTree = "<group>"; };
+		ABC54F611BC6A6B100D8B89E /* tabbar_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x.png"; sourceTree = "<group>"; };
+		ABC54F621BC6A6B100D8B89E /* tabbar_me@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F631BC6A6B100D8B89E /* tabbar_me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@3x.png"; sourceTree = "<group>"; };
+		ABC54F641BC6A6B100D8B89E /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
+		ABC54F651BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x~ipad.png"; sourceTree = "<group>"; };
+		ABC54F661BC6A6B100D8B89E /* tabbar_meHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@3x.png"; sourceTree = "<group>"; };
+		ABC54F691BC6A6B100D8B89E /* BaseVendors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVendors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC54F171BC6A66800D8B89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC54F331BC6A66800D8B89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC54F111BC6A66800D8B89E = {
+			isa = PBXGroup;
+			children = (
+				ABC54F1C1BC6A66800D8B89E /* LOOfficeAssistant */,
+				ABC54F391BC6A66800D8B89E /* LOOfficeAssistantTests */,
+				ABC54F1B1BC6A66800D8B89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC54F1B1BC6A66800D8B89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F1A1BC6A66800D8B89E /* LOOfficeAssistant.app */,
+				ABC54F361BC6A66800D8B89E /* LOOfficeAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC54F1C1BC6A66800D8B89E /* LOOfficeAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F851BC6A6C300D8B89E /* Others */,
+				ABC54F461BC6A6B100D8B89E /* General */,
+				ABC54F471BC6A6B100D8B89E /* Helpers */,
+				ABC54F481BC6A6B100D8B89E /* Macro */,
+				ABC54F4A1BC6A6B100D8B89E /* Models */,
+				ABC54F4B1BC6A6B100D8B89E /* Resources */,
+				ABC54F671BC6A6B100D8B89E /* Sections */,
+				ABC54F681BC6A6B100D8B89E /* Vendors */,
+				ABC54F271BC6A66800D8B89E /* ViewController.h */,
+				ABC54F281BC6A66800D8B89E /* ViewController.m */,
+				ABC54F1D1BC6A66800D8B89E /* Supporting Files */,
+			);
+			path = LOOfficeAssistant;
+			sourceTree = "<group>";
+		};
+		ABC54F1D1BC6A66800D8B89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F1E1BC6A66800D8B89E /* Info.plist */,
+				ABC54F1F1BC6A66800D8B89E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC54F391BC6A66800D8B89E /* LOOfficeAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F3C1BC6A66800D8B89E /* LOOfficeAssistantTests.m */,
+				ABC54F3A1BC6A66800D8B89E /* Supporting Files */,
+			);
+			path = LOOfficeAssistantTests;
+			sourceTree = "<group>";
+		};
+		ABC54F3A1BC6A66800D8B89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F3B1BC6A66800D8B89E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC54F461BC6A6B100D8B89E /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		ABC54F471BC6A6B100D8B89E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ABC54F481BC6A6B100D8B89E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F491BC6A6B100D8B89E /* PublicMacros.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		ABC54F4A1BC6A6B100D8B89E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABC54F4B1BC6A6B100D8B89E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F4C1BC6A6B100D8B89E /* logo.png */,
+				ABC54F4D1BC6A6B100D8B89E /* tabbar_icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABC54F4D1BC6A6B100D8B89E /* tabbar_icons */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F4E1BC6A6B100D8B89E /* tabbar_contacts@2x.png */,
+				ABC54F4F1BC6A6B100D8B89E /* tabbar_contacts@2x~ipad.png */,
+				ABC54F501BC6A6B100D8B89E /* tabbar_contacts@3x.png */,
+				ABC54F511BC6A6B100D8B89E /* tabbar_contactsHL@2x.png */,
+				ABC54F521BC6A6B100D8B89E /* tabbar_contactsHL@2x~ipad.png */,
+				ABC54F531BC6A6B100D8B89E /* tabbar_contactsHL@3x.png */,
+				ABC54F541BC6A6B100D8B89E /* tabbar_discover@2x.png */,
+				ABC54F551BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png */,
+				ABC54F561BC6A6B100D8B89E /* tabbar_discover@3x.png */,
+				ABC54F571BC6A6B100D8B89E /* tabbar_discoverHL@2x.png */,
+				ABC54F581BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png */,
+				ABC54F591BC6A6B100D8B89E /* tabbar_discoverHL@3x.png */,
+				ABC54F5A1BC6A6B100D8B89E /* tabbar_mainframe@2x.png */,
+				ABC54F5B1BC6A6B100D8B89E /* tabbar_mainframe@2x~ipad.png */,
+				ABC54F5C1BC6A6B100D8B89E /* tabbar_mainframe@3x.png */,
+				ABC54F5D1BC6A6B100D8B89E /* tabbar_mainframeHL.png */,
+				ABC54F5E1BC6A6B100D8B89E /* tabbar_mainframeHL@2x.png */,
+				ABC54F5F1BC6A6B100D8B89E /* tabbar_mainframeHL@2x~ipad.png */,
+				ABC54F601BC6A6B100D8B89E /* tabbar_mainframeHL@3x.png */,
+				ABC54F611BC6A6B100D8B89E /* tabbar_me@2x.png */,
+				ABC54F621BC6A6B100D8B89E /* tabbar_me@2x~ipad.png */,
+				ABC54F631BC6A6B100D8B89E /* tabbar_me@3x.png */,
+				ABC54F641BC6A6B100D8B89E /* tabbar_meHL@2x.png */,
+				ABC54F651BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png */,
+				ABC54F661BC6A6B100D8B89E /* tabbar_meHL@3x.png */,
+			);
+			path = tabbar_icons;
+			sourceTree = "<group>";
+		};
+		ABC54F671BC6A6B100D8B89E /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		ABC54F681BC6A6B100D8B89E /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F691BC6A6B100D8B89E /* BaseVendors.swift */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		ABC54F851BC6A6C300D8B89E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ABC54F211BC6A66800D8B89E /* AppDelegate.h */,
+				ABC54F221BC6A66800D8B89E /* AppDelegate.m */,
+				ABC54F2A1BC6A66800D8B89E /* Main.storyboard */,
+				ABC54F2D1BC6A66800D8B89E /* Images.xcassets */,
+				ABC54F2F1BC6A66800D8B89E /* LaunchScreen.xib */,
+				ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC54F191BC6A66800D8B89E /* LOOfficeAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC54F401BC6A66800D8B89E /* Build configuration list for PBXNativeTarget "LOOfficeAssistant" */;
+			buildPhases = (
+				ABC54F161BC6A66800D8B89E /* Sources */,
+				ABC54F171BC6A66800D8B89E /* Frameworks */,
+				ABC54F181BC6A66800D8B89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOOfficeAssistant;
+			productName = LOOfficeAssistant;
+			productReference = ABC54F1A1BC6A66800D8B89E /* LOOfficeAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC54F351BC6A66800D8B89E /* LOOfficeAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC54F431BC6A66800D8B89E /* Build configuration list for PBXNativeTarget "LOOfficeAssistantTests" */;
+			buildPhases = (
+				ABC54F321BC6A66800D8B89E /* Sources */,
+				ABC54F331BC6A66800D8B89E /* Frameworks */,
+				ABC54F341BC6A66800D8B89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC54F381BC6A66800D8B89E /* PBXTargetDependency */,
+			);
+			name = LOOfficeAssistantTests;
+			productName = LOOfficeAssistantTests;
+			productReference = ABC54F361BC6A66800D8B89E /* LOOfficeAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC54F121BC6A66800D8B89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "蓝鸥科技有限公司西安分公司";
+				TargetAttributes = {
+					ABC54F191BC6A66800D8B89E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ABC54F351BC6A66800D8B89E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ABC54F191BC6A66800D8B89E;
+					};
+				};
+			};
+			buildConfigurationList = ABC54F151BC6A66800D8B89E /* Build configuration list for PBXProject "LOOfficeAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC54F111BC6A66800D8B89E;
+			productRefGroup = ABC54F1B1BC6A66800D8B89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC54F191BC6A66800D8B89E /* LOOfficeAssistant */,
+				ABC54F351BC6A66800D8B89E /* LOOfficeAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC54F181BC6A66800D8B89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC54F701BC6A6B100D8B89E /* tabbar_contactsHL@3x.png in Resources */,
+				ABC54F6F1BC6A6B100D8B89E /* tabbar_contactsHL@2x~ipad.png in Resources */,
+				ABC54F7E1BC6A6B100D8B89E /* tabbar_me@2x.png in Resources */,
+				ABC54F831BC6A6B100D8B89E /* tabbar_meHL@3x.png in Resources */,
+				ABC54F6C1BC6A6B100D8B89E /* tabbar_contacts@2x~ipad.png in Resources */,
+				ABC54F6A1BC6A6B100D8B89E /* logo.png in Resources */,
+				ABC54F761BC6A6B100D8B89E /* tabbar_discoverHL@3x.png in Resources */,
+				ABC54F2C1BC6A66800D8B89E /* Main.storyboard in Resources */,
+				ABC54F781BC6A6B100D8B89E /* tabbar_mainframe@2x~ipad.png in Resources */,
+				ABC54F6E1BC6A6B100D8B89E /* tabbar_contactsHL@2x.png in Resources */,
+				ABC54F821BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png in Resources */,
+				ABC54F7C1BC6A6B100D8B89E /* tabbar_mainframeHL@2x~ipad.png in Resources */,
+				ABC54F811BC6A6B100D8B89E /* tabbar_meHL@2x.png in Resources */,
+				ABC54F7B1BC6A6B100D8B89E /* tabbar_mainframeHL@2x.png in Resources */,
+				ABC54F311BC6A66800D8B89E /* LaunchScreen.xib in Resources */,
+				ABC54F7D1BC6A6B100D8B89E /* tabbar_mainframeHL@3x.png in Resources */,
+				ABC54F791BC6A6B100D8B89E /* tabbar_mainframe@3x.png in Resources */,
+				ABC54F6B1BC6A6B100D8B89E /* tabbar_contacts@2x.png in Resources */,
+				ABC54F6D1BC6A6B100D8B89E /* tabbar_contacts@3x.png in Resources */,
+				ABC54F7A1BC6A6B100D8B89E /* tabbar_mainframeHL.png in Resources */,
+				ABC54F711BC6A6B100D8B89E /* tabbar_discover@2x.png in Resources */,
+				ABC54F7F1BC6A6B100D8B89E /* tabbar_me@2x~ipad.png in Resources */,
+				ABC54F731BC6A6B100D8B89E /* tabbar_discover@3x.png in Resources */,
+				ABC54F771BC6A6B100D8B89E /* tabbar_mainframe@2x.png in Resources */,
+				ABC54F741BC6A6B100D8B89E /* tabbar_discoverHL@2x.png in Resources */,
+				ABC54F721BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png in Resources */,
+				ABC54F751BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png in Resources */,
+				ABC54F2E1BC6A66800D8B89E /* Images.xcassets in Resources */,
+				ABC54F801BC6A6B100D8B89E /* tabbar_me@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC54F341BC6A66800D8B89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC54F161BC6A66800D8B89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC54F261BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld in Sources */,
+				ABC54F231BC6A66800D8B89E /* AppDelegate.m in Sources */,
+				ABC54F291BC6A66800D8B89E /* ViewController.m in Sources */,
+				ABC54F201BC6A66800D8B89E /* main.m in Sources */,
+				ABC54F841BC6A6B100D8B89E /* BaseVendors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC54F321BC6A66800D8B89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC54F3D1BC6A66800D8B89E /* LOOfficeAssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC54F381BC6A66800D8B89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC54F191BC6A66800D8B89E /* LOOfficeAssistant */;
+			targetProxy = ABC54F371BC6A66800D8B89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC54F2A1BC6A66800D8B89E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC54F2B1BC6A66800D8B89E /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ABC54F2F1BC6A66800D8B89E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC54F301BC6A66800D8B89E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC54F3E1BC6A66800D8B89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABC54F3F1BC6A66800D8B89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC54F411BC6A66800D8B89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LOOfficeAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC54F421BC6A66800D8B89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LOOfficeAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABC54F441BC6A66800D8B89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LOOfficeAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOOfficeAssistant.app/LOOfficeAssistant";
+			};
+			name = Debug;
+		};
+		ABC54F451BC6A66800D8B89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LOOfficeAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOOfficeAssistant.app/LOOfficeAssistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC54F151BC6A66800D8B89E /* Build configuration list for PBXProject "LOOfficeAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC54F3E1BC6A66800D8B89E /* Debug */,
+				ABC54F3F1BC6A66800D8B89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC54F401BC6A66800D8B89E /* Build configuration list for PBXNativeTarget "LOOfficeAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC54F411BC6A66800D8B89E /* Debug */,
+				ABC54F421BC6A66800D8B89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC54F431BC6A66800D8B89E /* Build configuration list for PBXNativeTarget "LOOfficeAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC54F441BC6A66800D8B89E /* Debug */,
+				ABC54F451BC6A66800D8B89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */,
+			);
+			currentVersion = ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */;
+			name = LOOfficeAssistant.xcdatamodeld;
+			path = ../LOOfficeAssistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABC54F121BC6A66800D8B89E /* Project object */;
+}
