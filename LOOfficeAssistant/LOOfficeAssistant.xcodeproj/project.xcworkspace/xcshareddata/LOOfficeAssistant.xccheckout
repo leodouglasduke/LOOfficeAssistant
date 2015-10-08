@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>35DFE15B-C6B3-4948-B1F9-24A91A1D411D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>LOOfficeAssistant</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F071870E087E99F267E4016E799F9FEBD2020E62</key>
 		<string>https://github.com/leodouglasduke/LOOfficeAssistant.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LOOfficeAssistant/LOOfficeAssistant.xcodeproj</string>
+	<string>LOOfficeAssistant/LOOfficeAssistant.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F071870E087E99F267E4016E799F9FEBD2020E62</key>
