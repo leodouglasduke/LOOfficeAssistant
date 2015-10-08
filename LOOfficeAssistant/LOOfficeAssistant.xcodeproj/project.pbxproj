@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ABC54F201BC6A66800D8B89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F1F1BC6A66800D8B89E /* main.m */; };
-		ABC54F231BC6A66800D8B89E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F221BC6A66800D8B89E /* AppDelegate.m */; };
-		ABC54F261BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */; };
 		ABC54F291BC6A66800D8B89E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F281BC6A66800D8B89E /* ViewController.m */; };
 		ABC54F2C1BC6A66800D8B89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2A1BC6A66800D8B89E /* Main.storyboard */; };
-		ABC54F2E1BC6A66800D8B89E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2D1BC6A66800D8B89E /* Images.xcassets */; };
 		ABC54F311BC6A66800D8B89E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F2F1BC6A66800D8B89E /* LaunchScreen.xib */; };
 		ABC54F3D1BC6A66800D8B89E /* LOOfficeAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F3C1BC6A66800D8B89E /* LOOfficeAssistantTests.m */; };
 		ABC54F6A1BC6A6B100D8B89E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F4C1BC6A6B100D8B89E /* logo.png */; };
@@ -42,6 +39,9 @@
 		ABC54F821BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F651BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png */; };
 		ABC54F831BC6A6B100D8B89E /* tabbar_meHL@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC54F661BC6A6B100D8B89E /* tabbar_meHL@3x.png */; };
 		ABC54F841BC6A6B100D8B89E /* BaseVendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC54F691BC6A6B100D8B89E /* BaseVendors.swift */; };
+		ABE695851BC6ADD3002A1369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE695811BC6ADD3002A1369 /* AppDelegate.m */; };
+		ABE695861BC6ADD3002A1369 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE695821BC6ADD3002A1369 /* Images.xcassets */; };
+		ABE695871BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABE695831BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +58,9 @@
 		ABC54F1A1BC6A66800D8B89E /* LOOfficeAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOOfficeAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC54F1E1BC6A66800D8B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC54F1F1BC6A66800D8B89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABC54F211BC6A66800D8B89E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		ABC54F221BC6A66800D8B89E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOOfficeAssistant.xcdatamodel; sourceTree = "<group>"; };
 		ABC54F271BC6A66800D8B89E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABC54F281BC6A66800D8B89E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABC54F2B1BC6A66800D8B89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABC54F2D1BC6A66800D8B89E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		ABC54F301BC6A66800D8B89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABC54F361BC6A66800D8B89E /* LOOfficeAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOOfficeAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC54F3B1BC6A66800D8B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +93,10 @@
 		ABC54F651BC6A6B100D8B89E /* tabbar_meHL@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x~ipad.png"; sourceTree = "<group>"; };
 		ABC54F661BC6A6B100D8B89E /* tabbar_meHL@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@3x.png"; sourceTree = "<group>"; };
 		ABC54F691BC6A6B100D8B89E /* BaseVendors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVendors.swift; sourceTree = "<group>"; };
+		ABE695801BC6ADD3002A1369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABE695811BC6ADD3002A1369 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABE695821BC6ADD3002A1369 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABE695841BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOOfficeAssistant.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,12 +267,12 @@
 		ABC54F851BC6A6C300D8B89E /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				ABC54F211BC6A66800D8B89E /* AppDelegate.h */,
-				ABC54F221BC6A66800D8B89E /* AppDelegate.m */,
+				ABE695801BC6ADD3002A1369 /* AppDelegate.h */,
+				ABE695811BC6ADD3002A1369 /* AppDelegate.m */,
+				ABE695821BC6ADD3002A1369 /* Images.xcassets */,
+				ABE695831BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodeld */,
 				ABC54F2A1BC6A66800D8B89E /* Main.storyboard */,
-				ABC54F2D1BC6A66800D8B89E /* Images.xcassets */,
 				ABC54F2F1BC6A66800D8B89E /* LaunchScreen.xib */,
-				ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -383,8 +383,8 @@
 				ABC54F771BC6A6B100D8B89E /* tabbar_mainframe@2x.png in Resources */,
 				ABC54F741BC6A6B100D8B89E /* tabbar_discoverHL@2x.png in Resources */,
 				ABC54F721BC6A6B100D8B89E /* tabbar_discover@2x~ipad.png in Resources */,
+				ABE695861BC6ADD3002A1369 /* Images.xcassets in Resources */,
 				ABC54F751BC6A6B100D8B89E /* tabbar_discoverHL@2x~ipad.png in Resources */,
-				ABC54F2E1BC6A66800D8B89E /* Images.xcassets in Resources */,
 				ABC54F801BC6A6B100D8B89E /* tabbar_me@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,11 +403,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC54F261BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld in Sources */,
-				ABC54F231BC6A66800D8B89E /* AppDelegate.m in Sources */,
+				ABE695851BC6ADD3002A1369 /* AppDelegate.m in Sources */,
 				ABC54F291BC6A66800D8B89E /* ViewController.m in Sources */,
 				ABC54F201BC6A66800D8B89E /* main.m in Sources */,
 				ABC54F841BC6A6B100D8B89E /* BaseVendors.swift in Sources */,
+				ABE695871BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +604,7 @@
 				ABC54F421BC6A66800D8B89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC54F431BC6A66800D8B89E /* Build configuration list for PBXNativeTarget "LOOfficeAssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -612,18 +613,18 @@
 				ABC54F451BC6A66800D8B89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ABC54F241BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodeld */ = {
+		ABE695831BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */,
+				ABE695841BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodel */,
 			);
-			currentVersion = ABC54F251BC6A66800D8B89E /* LOOfficeAssistant.xcdatamodel */;
-			name = LOOfficeAssistant.xcdatamodeld;
-			path = ../LOOfficeAssistant.xcdatamodeld;
+			currentVersion = ABE695841BC6ADD3002A1369 /* LOOfficeAssistant.xcdatamodel */;
+			path = LOOfficeAssistant.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
